@@ -32,7 +32,7 @@ The dashboard includes the following key visualizations:
 ### Create the sql view
     ![image alt](https://github.com/kenny755/Product-Analytics-Dashboard/blob/6451ebc08bb43b210b02c347bc8da39ad1a79c61/End%20to%20end%201.png)
   
-    ``` sql
+  ```sql
     with cte as (
 select
 a.Product,
@@ -59,10 +59,8 @@ Select *,
 From cte a
 join discount_data b
 on a.Discount_Band = b.Discount_Band and a.Month =b.Month
-
 ```
-
-   
+!image alt]()
   ## Data Import to Power Bi
     I used the Advance Feature, trying to avoid the need for transformation using power Query, This is an Interesting feature and I will recommend it, the steps include:
     1) Get Data from SQL server
@@ -70,8 +68,9 @@ on a.Discount_Band = b.Discount_Band and a.Month =b.Month
     3) Check the advance box options 
     4) Copy your sql queries and paste in the sql statement box
     ![image alt] ()
+
 # Visualization
-![image at] ()
+  ![image at]()
 
 1) Revenue by Country: Interactive map visualization showing revenue distribution by region.
 2) Revenue by Date and Year: Line chart displaying trends over time.
