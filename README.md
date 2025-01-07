@@ -15,7 +15,7 @@ The dashboard includes the following key visualizations:
 
   Additional Enhancements are included as necessary to provide comprehensive insights
   # GETTING STARTED
-  ## Prereusites
+  ## Prerequisites
   * PPower Bi Desktop: Required to view and interact with the dashboard.
   * Excel: For reviewing the raw data source.
  
