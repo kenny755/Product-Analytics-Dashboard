@@ -28,6 +28,9 @@ The dashboard includes the following key visualizations:
   The raw data source was from an Excel and transformed using SQL query. Key steps in data transformation includes
   * Removing duplicates and cleaning null values.
   * Standardizing columns headers for consistency.
+
+### Create the sql view
+    ![image alt](https://github.com/kenny755/Product-Analytics-Dashboard/blob/6451ebc08bb43b210b02c347bc8da39ad1a79c61/End%20to%20end%201.png)
   
     ''' sql
     with cte as (
@@ -58,8 +61,6 @@ join discount_data b
 on a.Discount_Band = b.Discount_Band and a.Month =b.Month
 '''
 
-### Create the sql view
-    ![image alt](https://github.com/kenny755/Product-Analytics-Dashboard/blob/6451ebc08bb43b210b02c347bc8da39ad1a79c61/End%20to%20end%201.png)
    
   ## Data Import to Power Bi
     I used the Advance Feature, trying to avoid the need for transformation using power Query, This is an Interesting feature and I will recommend it, the steps include:
