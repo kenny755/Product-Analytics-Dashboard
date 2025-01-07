@@ -63,12 +63,13 @@ on a.Discount_Band = b.Discount_Band and a.Month =b.Month
 !image alt]()
  
   ## Data Import to Power Bi
+   
+  ![image alt](https://github.com/kenny755/Product-Analytics-Dashboard/blob/d768235d79b8910471cafa3a0953f57de49a7941/end%20to%20end%204.png) 
     I used the Advance Feature, trying to avoid the need for transformation using power Query, This is an Interesting feature and I will recommend it, the steps include:
     1) Get Data from SQL server
     2) Copy and paste your sql server name and database name in their respective fields
     3) Check the advance box options 
     4) Copy your sql queries and paste in the sql statement box
-    ![image alt] ()
 
 # Visualization
   ![image at](https://github.com/kenny755/Product-Analytics-Dashboard/blob/1df9ffc8bb0e83db11514457c0ca410d9d8f9e3d/End%20to%20end%202.png)
