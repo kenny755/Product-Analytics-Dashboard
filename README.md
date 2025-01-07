@@ -61,6 +61,7 @@ join discount_data b
 on a.Discount_Band = b.Discount_Band and a.Month =b.Month
 ```
 !image alt]()
+ 
   ## Data Import to Power Bi
     I used the Advance Feature, trying to avoid the need for transformation using power Query, This is an Interesting feature and I will recommend it, the steps include:
     1) Get Data from SQL server
@@ -70,7 +71,7 @@ on a.Discount_Band = b.Discount_Band and a.Month =b.Month
     ![image alt] ()
 
 # Visualization
-  ![image at]()
+  ![image at](https://github.com/kenny755/Product-Analytics-Dashboard/blob/1df9ffc8bb0e83db11514457c0ca410d9d8f9e3d/End%20to%20end%202.png)
 
 1) Revenue by Country: Interactive map visualization showing revenue distribution by region.
 2) Revenue by Date and Year: Line chart displaying trends over time.
