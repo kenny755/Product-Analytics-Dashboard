@@ -1,10 +1,25 @@
 # DATA PORTFOLIO: EXCEL TO SQL TO POWER BI
 ![image alt](https://github.com/kenny755/Product-Analytics-Dashboard/blob/fb3e4129a9bef657d38367d21f3fb36735bc81e6/kaggle_to_powerbi.gif)
 
+
+# TABLE OF CONTENTS
+
+- [ Product Analysis Dashboard]( #Product-Analytics-Dashboard)
+- [Overview](#Overview)
+- [Getting Started](#Getting Started)
+  - [Prereusites](#Prerequsites)
+- [Data Preparation](#Data Preparation)
+  - [Creating SQL View](#Create the sql View)
+  - [SQL Query](#SQL Query)
+-[Data Import](#Data Import to power Bi)
+  -[Steps](#Steps)
+-[Visuaization](#Visuaization)
+
+
 # Product-Analytics-Dashboard
 This project involves developing a high-level Product Analytics Dashboard that provides actionable insights into key product performance metrics. The dashboard supports strategic decision-making and tracks performance trends effectively.
-#
-overview
+
+# overview
 This project involves developing a high-level Product Analytics Dashboard that provides actionable insights into key product performance metrics. The dashboard supports strategic decision-making and tracks performance trends effectively.
 
 # Features 
