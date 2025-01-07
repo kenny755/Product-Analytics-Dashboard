@@ -30,7 +30,7 @@ The dashboard includes the following key visualizations:
   * Standardizing columns headers for consistency.
 
 ### Create the sql view
-    ![image alt](https://github.com/kenny755/Product-Analytics-Dashboard/blob/6451ebc08bb43b210b02c347bc8da39ad1a79c61/End%20to%20end%201.png)
+   ![image alt](https://github.com/kenny755/Product-Analytics-Dashboard/blob/9467f0d64b5d46bdc7c1a258a70d8b47bbd2d61c/End%20to%20end%201.png)
   
   ```sql
     with cte as (
