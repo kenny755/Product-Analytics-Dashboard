@@ -56,9 +56,11 @@ From cte a
 join discount_data b
 on a.Discount_Band = b.Discount_Band and a.Month =b.Month
 '''
+
 ### Create the sql view
     ![image alt](https://github.com/kenny755/Product-Analytics-Dashboard/blob/6451ebc08bb43b210b02c347bc8da39ad1a79c61/End%20to%20end%201.png)
-    ## Data Import to Power Bi
+   
+  ## Data Import to Power Bi
     I used the Advance Feature, trying to avoid the need for transformation using power Query, This is an Interesting feature and I will recommend it, the steps include:
     * Get Data from SQL server
     * Copy and paste your sql server name and database name in their respective fields
