@@ -74,13 +74,13 @@ on a.Discount_Band = b.Discount_Band and a.Month =b.Month
     4) Copy your sql queries and paste in the sql statement box
 
 # Visualization
-  ![image at](https://github.com/kenny755/Product-Analytics-Dashboard/blob/1df9ffc8bb0e83db11514457c0ca410d9d8f9e3d/End%20to%20end%202.png)
+  ## ![image at](https://github.com/kenny755/Product-Analytics-Dashboard/blob/1df9ffc8bb0e83db11514457c0ca410d9d8f9e3d/End%20to%20end%202.png)
 
-1) Revenue by Country: Interactive map visualization showing revenue distribution by region.
-2) Revenue by Date and Year: Line chart displaying trends over time.
-3) Profit and Unit Sales YoY Change: Bar chart summarizing annual growth.
-4) Revenue Breakdown by Discount Band: Pie chart or stacked bar chart for discount categories.
-5) Detailed Table View: Tabular data for granular insights.
-
+  1) Revenue by Country: Interactive map visualization showing revenue distribution by region.
+  2) Revenue by Date and Year: Line chart displaying trends over time.
+  3) Profit and Unit Sales YoY Change: Bar chart summarizing annual growth.
+  4) Revenue Breakdown by Discount Band: Pie chart or stacked bar chart for discount categories.
+  5) Detailed Table View: Tabular data for granular insights.
+## ![image at](https://github.com/kenny755/Product-Analytics-Dashboard/blob/d72728c76216a7aecb14f22c6167ae58e83e5eed/end%20to%20end%203.png)
    
 
