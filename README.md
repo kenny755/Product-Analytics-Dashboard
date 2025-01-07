@@ -17,7 +17,8 @@ The dashboard includes the following key visualizations:
 - Detailed Table View: Provides revenue and profit details by country and year.
 
   Additional Enhancements are included as necessary to provide comprehensive insights
-  # GETTING STARTED
+
+   # GETTING STARTED
   ## Prerequisites
   * PPower Bi Desktop: Required to view and interact with the dashboard.
   * Excel: For reviewing the raw data source.
@@ -27,6 +28,7 @@ The dashboard includes the following key visualizations:
   The raw data source was from an Excel and transformed using SQL query. Key steps in data transformation includes
   * Removing duplicates and cleaning null values.
   * Standardizing columns headers for consistency.
+  
     ''' sql
     with cte as (
 select
@@ -49,7 +51,6 @@ Format (date, 'yyyy') as Year
 from Product_data a
 join product_sales b
 on a.Product_ID = b.Product)
-
 Select *,
 (1-discount*1.0/100) * Revenue as Discount_revenue
 From cte a
@@ -62,10 +63,10 @@ on a.Discount_Band = b.Discount_Band and a.Month =b.Month
    
   ## Data Import to Power Bi
     I used the Advance Feature, trying to avoid the need for transformation using power Query, This is an Interesting feature and I will recommend it, the steps include:
-    * Get Data from SQL server
-    * Copy and paste your sql server name and database name in their respective fields
-    * Check the advance box options 
-    * Copy your sql queries and paste in the sql statement box
+    1) Get Data from SQL server
+    2) Copy and paste your sql server name and database name in their respective fields
+    3) Check the advance box options 
+    4) Copy your sql queries and paste in the sql statement box
     ![image alt] ()
 # Visualization
 ![image at] ()
