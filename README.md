@@ -14,6 +14,7 @@
 - [Data Import](#Data-Import-to-power-Bi)
 - [Steps](#Steps)
 - [Visuaization](#Visuaization)
+- [Usage Instructions](#Usage-Instructions)
 
 
 # Product-Analytics-Dashboard
@@ -95,8 +96,14 @@ on a.Discount_Band = b.Discount_Band and a.Month =b.Month
   1) Revenue by Country: Interactive map visualization showing revenue distribution by region.
   2) Revenue by Date and Year: Line chart displaying trends over time.
   3) Profit and Unit Sales YoY Change: Bar chart summarizing annual growth.
-  4) Revenue Breakdown by Discount Band: Pie chart or stacked bar chart for discount categories.
-  5) Detailed Table View: Tabular data for granular insights.
+
 ## ![image at](https://github.com/kenny755/Product-Analytics-Dashboard/blob/d72728c76216a7aecb14f22c6167ae58e83e5eed/end%20to%20end%203.png)
    
 
+# Usage Instructions
+
+1) Use slicers and filters to explore data by year, country, or discount band.
+2) Hover over charts to view tooltips with additional details.
+3) Drill through for deeper insights into specific regions or time periods.
+4) Revenue Breakdown by Discount Band: Pie chart or stacked bar chart for discount categories.
+5) Detailed Table View: Tabular data for granular insights.
