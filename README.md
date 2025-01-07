@@ -6,14 +6,14 @@
 
 - [ Product Analysis Dashboard]( #Product-Analytics-Dashboard)
 - [Overview](#Overview)
-- [Getting Started](#Getting Started)
-  - [Prereusites](#Prerequsites)
-- [Data Preparation](#Data Preparation)
-  - [Creating SQL View](#Create the sql View)
-  - [SQL Query](#SQL Query)
--[Data Import](#Data Import to power Bi)
-  -[Steps](#Steps)
--[Visuaization](#Visuaization)
+- [Getting Started](#Getting-Started)
+- [Prereusites](#Prerequsites)
+- [Data Preparation](#Data-Preparation)
+- [Creating SQL View](#Create-the-sql-View)
+- [SQL Query](#SQL-Query)
+- [Data Import](#Data-Import-to-power-Bi)
+- [Steps](#Steps)
+- [Visuaization](#Visuaization)
 
 
 # Product-Analytics-Dashboard
@@ -46,7 +46,8 @@ The dashboard includes the following key visualizations:
 
 ### Create the sql view
    ![image alt](https://github.com/kenny755/Product-Analytics-Dashboard/blob/9467f0d64b5d46bdc7c1a258a70d8b47bbd2d61c/End%20to%20end%201.png)
-  
+
+  # SQL QUERY
   ```sql
     with cte as (
 select
