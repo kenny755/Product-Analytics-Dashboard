@@ -32,7 +32,7 @@ The dashboard includes the following key visualizations:
 ### Create the sql view
     ![image alt](https://github.com/kenny755/Product-Analytics-Dashboard/blob/6451ebc08bb43b210b02c347bc8da39ad1a79c61/End%20to%20end%201.png)
   
-    ''' sql
+    ``` sql
     with cte as (
 select
 a.Product,
@@ -59,7 +59,8 @@ Select *,
 From cte a
 join discount_data b
 on a.Discount_Band = b.Discount_Band and a.Month =b.Month
-'''
+
+```
 
    
   ## Data Import to Power Bi
