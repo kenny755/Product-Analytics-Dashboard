@@ -60,12 +60,14 @@ From cte a
 join discount_data b
 on a.Discount_Band = b.Discount_Band and a.Month =b.Month
 ```
-!image alt]()
+
  
   ## Data Import to Power Bi
    
   ![image alt](https://github.com/kenny755/Product-Analytics-Dashboard/blob/d768235d79b8910471cafa3a0953f57de49a7941/end%20to%20end%204.png) 
-    I used the Advance Feature, trying to avoid the need for transformation using power Query, This is an Interesting feature and I will recommend it, the steps include:
+   
+   ### steps: I used the Advance Feature, trying to avoid the need for transformation using power Query, This is an Interesting feature and I will recommend it, the steps include:
+   
     1) Get Data from SQL server
     2) Copy and paste your sql server name and database name in their respective fields
     3) Check the advance box options 
