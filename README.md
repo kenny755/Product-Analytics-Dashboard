@@ -36,7 +36,7 @@ The dashboard includes the following key visualizations:
 
    # GETTING STARTED
   ## Prerequisites
-  * PPower Bi Desktop: Required to view and interact with the dashboard.
+  * Power Bi Desktop: Required to view and interact with the dashboard.
   * Excel: For reviewing the raw data source.
  
   # DATA PREPARATION
